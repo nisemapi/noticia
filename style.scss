@@ -15,6 +15,9 @@
         }
         .pale{
             opacity: 0.6;
+            &:hover{
+                font-weight: bold;
+            }
         }
     }
 }
