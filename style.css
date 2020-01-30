@@ -1,0 +1,14 @@
+* {
+  font-size: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+ 
+.first-section #header #title {
+  font-size: 4rem; }
+.first-section .main p {
+  font-size: 2rem; }
+.first-section .main .pale {
+  opacity: 0.6; }
+  .first-section .main .pale:hover {
+    font-weight: bold; }
+
+/*# sourceMappingURL=style.css.map */
