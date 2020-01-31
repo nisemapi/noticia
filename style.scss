@@ -4,20 +4,34 @@
 }
 .first-section{
     
+    width: 80%;
+    margin: auto;
     #header{
         #title{
             font-size: 4rem;
         }
     }
     .main{
-        p{
-            font-size: 2rem;
-        }
-        .pale{
-            opacity: 0.6;
-            &:hover{
-                font-weight: bold;
+        .img-container{
+            img{
+                width: 100%;
             }
+        }
+        .text-container{
+            display: flex;
+            flex-direction: column;
+            p{ 
+                font-size: 2rem;
+                &:hover{
+                    font-weight: bold;
+                }
+            }
+            .pale{
+                opacity: 0.6;
+                &:hover{
+                    font-weight: bold;
+                }
+        }
         }
     }
 }

@@ -1,14 +1,24 @@
 * {
   font-size: 10px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
- 
-.first-section #header #title {
-  font-size: 4rem; }
-.first-section .main p {
-  font-size: 2rem; }
-.first-section .main .pale {
-  opacity: 0.6; }
-  .first-section .main .pale:hover {
-    font-weight: bold; }
+
+.first-section {
+  width: 80%;
+  margin: auto; }
+  .first-section #header #title {
+    font-size: 4rem; }
+  .first-section .main .img-container img {
+    width: 100%; }
+  .first-section .main .text-container {
+    display: flex;
+    flex-direction: column; }
+    .first-section .main .text-container p {
+      font-size: 2rem; }
+      .first-section .main .text-container p:hover {
+        font-weight: bold; }
+    .first-section .main .text-container .pale {
+      opacity: 0.6; }
+      .first-section .main .text-container .pale:hover {
+        font-weight: bold; }
 
 /*# sourceMappingURL=style.css.map */
