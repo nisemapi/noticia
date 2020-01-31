@@ -21,4 +21,9 @@
       .first-section .main .text-container .pale:hover {
         font-weight: bold; }
 
+.comments {
+  background-color: blue;
+  width: 800px;
+  height: 10px; }
+
 /*# sourceMappingURL=style.css.map */
