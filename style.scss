@@ -1,4 +1,4 @@
-*{
+:root{   //selector
     font-size: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -35,8 +35,31 @@
         }
     }
 }
-.comments {
-    background-color: blue;
-    width: 800px;
-    height: 10px;
-}
+.nav {
+    display: block;
+    float: right;
+    position: fixed;
+    margin-left: 90%;
+    background-color: lightgrey;
+    width: 10%;
+    height: auto;
+
+    > h2 { //selector
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+    h2 + div{
+        font-size: 1.5rem;
+        color: black;
+       
+        ul{
+            li {
+                a:visited{
+                    color: black;
+                }   
+            }
+        }
+    }
+
+    }
+    
